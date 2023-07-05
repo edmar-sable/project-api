@@ -1,0 +1,52 @@
+body {
+  display: flex;
+}
+.card {
+  border: 1px solid black;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+input[type='text'] {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 6px;
+  background-color: #f1f1f1;
+}
+
+button {
+  background-color: #c59c62;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 12px 20px;
+
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 80%;
+}
+
+.row {
+  display: flex;
+  margin: 10px 0;
+}
+
+.inputLink {
+  float: right;
+  width: 75%;
+}
+
+.btnCopy {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
